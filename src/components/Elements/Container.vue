@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'SuContainer',
+    name: 'SContainer',
     props: {}
   }
 </script>

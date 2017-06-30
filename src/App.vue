@@ -4,27 +4,32 @@
       <span>Vue.js PWA</span>
     </header>
     <main>
+      <s-container>
 
-      <su-container>
 
-        <div class="ui" v-divider.horizontal></div>
+        <div class="ui" v-sdivider.horizontal></div>
 
-        <su-flag name="ma"></su-flag>
+        <s-flag name="ma"></s-flag>
 
-        <su-icon icon="user"></su-icon>
+        <s-icon icon="user"></s-icon>
 
-        <su-button class="circular icon" text="" icon="facebook"></su-button>
+        <s-button class="circular icon" text="" icon="facebook"></s-button>
 
         <div class="ui buttons">
 
-          <su-button class="facebook" text="Facebook" icon="facebook"></su-button>
+          <s-button class="facebook" text="Facebook" icon="facebook"></s-button>
           <div class="or"></div>
-          <su-button class="twitter" text="Twitter" icon="twitter"></su-button>
+          <s-button class="twitter" text="Twitter" icon="twitter"></s-button>
         </div>
+
         <img src="./assets/logo.png" alt="Vue.js PWA">
+
+        <s-img src="./static/img/logo.png" alt="Vue.js PWA" bordered centered circular spaced size="tiny">
+        </s-img>
+
         <router-view></router-view>
 
-      </su-container>
+      </s-container>
 
 
     </main>

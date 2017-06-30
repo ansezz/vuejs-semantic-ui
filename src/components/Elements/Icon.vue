@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: 'SuIcon',
+    name: 'SIcon',
     props: {
       icon: {
         type: String,

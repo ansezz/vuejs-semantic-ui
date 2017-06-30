@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: 'SuFlag',
+    name: 'SFlag',
     props: {
       name: {
         type: String,
