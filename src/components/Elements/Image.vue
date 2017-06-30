@@ -39,6 +39,10 @@
         type: Boolean,
         default: false
       },
+      rounded: {
+        type: Boolean,
+        default: false
+      },
       spaced: {
         type: Boolean,
         default: false

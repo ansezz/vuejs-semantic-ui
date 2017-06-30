@@ -4,12 +4,16 @@
       <span>Vue.js PWA</span>
     </header>
     <main>
-      <div>
-        <s-loader active indeterminate centered inline text="loading" size="massive"></s-loader>
-      </div>
+
+
+      <s-reveal size="small" circular image instant type="rotate">
+        <s-img slot="visible-content" src="./static/img/logo2.png" size="small" circular></s-img>
+        <s-img slot="hidden-content" src="./static/img/logo.png" size="small" circular></s-img>
+      </s-reveal>
 
 
       <s-container>
+
 
         <div class="ui" v-sdivider.horizontal></div>
 
@@ -34,6 +38,9 @@
         <router-view></router-view>
 
       </s-container>
+      <div>
+        <s-loader active indeterminate centered inline text="loading" size="massive"></s-loader>
+      </div>
 
 
     </main>
