@@ -4,8 +4,12 @@
       <span>Vue.js PWA</span>
     </header>
     <main>
-      <s-container>
+      <div>
+        <s-loader active indeterminate centered inline text="loading" size="massive"></s-loader>
+      </div>
 
+
+      <s-container>
 
         <div class="ui" v-sdivider.horizontal></div>
 
